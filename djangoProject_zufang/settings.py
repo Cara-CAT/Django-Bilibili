@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'login',#新增此行，以运行
+    'login',
+    'captcha',
 ]
 
 MIDDLEWARE = [
